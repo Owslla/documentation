@@ -310,6 +310,12 @@ Supported properties
 | <nc:reminder-due-date>        | | The due date of the reminder                  | ``1970-01-01T00:00:00+00:00``                                                        |
 |                               | | as an ISO 8601 formatted string.              |                                                                                      |
 +-------------------------------+-------------------------------------------------+--------------------------------------------------------------------------------------+
+| <nc:version-label />          | The version of the specified file.              | | ``Initial version`` = When the file was first created.                             |
+|                               |                                                 | | ``Current version`` = The most recent version of the file.                         |
+|                               |                                                 | | Empty string for everything inbetween.                                             |
++-------------------------------+-------------------------------------------------+--------------------------------------------------------------------------------------+
+| <nc:version-author />         |   The author's id of a specified file verson.   | ``admin``, ``jane``, ``thisAuthorsID``                                               |
++-------------------------------+-------------------------------------------------+--------------------------------------------------------------------------------------+
 
 Listing folders (rfc4918_)
 --------------------------
